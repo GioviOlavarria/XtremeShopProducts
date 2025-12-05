@@ -8,11 +8,6 @@ group = 'api'
 version = '0.0.1-SNAPSHOT'
 description = 'XtremeShopProducts'
 
-java {
-	toolchain {
-		languageVersion = JavaLanguageVersion.of(17)
-	}
-}
 
 configurations {
 	compileOnly {
