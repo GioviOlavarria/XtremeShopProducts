@@ -2,6 +2,8 @@ package api.xtremeshopproducts.controller;
 
 import api.xtremeshopproducts.model.Product;
 import api.xtremeshopproducts.repository.ProductRepository;
+import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
 @RestController
